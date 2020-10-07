@@ -1,19 +1,9 @@
 // function to generate markdown for README
-
-// * Title
-//   * Description
-//   * Table of Contents
-//   * Installation
-//  * Usage
-//  * License
-//  * Contributing
-//  * Tests
-//  * Questions
-
 function generateMarkdown(data) {
-   return `# ${data.title}
+   return `# Welcome to ${data.title}
 
-
+  ![Badge version](https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000)
+  
   ![Badge for GitHub repo top language](https://img.shields.io/github/languages/top/${data.username}/${data.repo}?style=flat&logo=appveyor) 
   ![Badge for GitHub last commit](https://img.shields.io/github/last-commit/${data.username}/${data.repo}?style=flat&logo=appveyor)
   

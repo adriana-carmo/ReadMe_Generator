@@ -10,7 +10,7 @@ const questions = [
         name: "title"
     },
     {   type: "input",
-        message:"Please enter a description of your project:",
+        message:"Please, enter your project description:",
         name: "description"
     },
     {   type: "input",
@@ -22,17 +22,20 @@ const questions = [
         name: "installation"
     },
     {   type: "input",
-        message:"Provide instructions and examples of your project in use for the Usage section?",
+        message:"Provide instructions and examples of your project in use for the Usage section:",
         name: "usage"
     },
     {   type: "input",
-        message:"Provide any tests written for your application and provide examples on how to run them?",
+        message:"Provide any tests written for your application and provide examples on how to run them:",
         name: "test"
     },
     {   type: "checkbox",
-        message:"Please select a license.",
+        message:"Please, select a license:",
         choices: ["Apache-2.0",
+                "BSD-3-Clause",
                 "MIT",
+                "MPL-2.0",
+                "EPL-2.0",
                 "ISC",
                 "GPL-LICENSE",
                 "LGPL-LICENSE"],
@@ -55,7 +58,7 @@ const questions = [
     },
     {
         type: "input",
-        message: "Provide the name of the file that will be generated for your project?",
+        message: "Provide the name of the file that will be generated for your project:",
         name: "file"
     }
  ];
